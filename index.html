@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>太上老君灵签</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="brand-pane" aria-label="太上老君灵签">
+        <div class="brand-lockup">
+          <p class="eyebrow">清静 · 守正 · 问心</p>
+          <h1>太上老君灵签</h1>
+          <p class="verse">心正香自远，念诚签自明。</p>
+        </div>
+      </section>
+
+      <section class="draw-pane" aria-label="抽签">
+        <div class="tool-frame">
+          <div class="topic-row" role="radiogroup" aria-label="求签主题">
+            <button class="topic is-active" type="button" role="radio" aria-checked="true" data-topic="总览">总览</button>
+            <button class="topic" type="button" role="radio" aria-checked="false" data-topic="事业">事业</button>
+            <button class="topic" type="button" role="radio" aria-checked="false" data-topic="财运">财运</button>
+            <button class="topic" type="button" role="radio" aria-checked="false" data-topic="姻缘">姻缘</button>
+            <button class="topic" type="button" role="radio" aria-checked="false" data-topic="健康">健康</button>
+            <button class="topic" type="button" role="radio" aria-checked="false" data-topic="学业">学业</button>
+          </div>
+
+          <div class="oracle-stage" aria-live="polite">
+            <div class="lot-cylinder" id="lotCylinder" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="result-card" id="resultCard">
+              <div class="empty-state">
+                <p class="seal">玄</p>
+                <p>凝神一念</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="action-row">
+            <button class="primary-action" id="drawButton" type="button">诚心抽签</button>
+            <button class="ghost-action" id="copyButton" type="button" disabled>复制签文</button>
+          </div>
+        </div>
+
+        <aside class="history-panel" aria-label="最近签文">
+          <div class="history-head">
+            <h2>最近签文</h2>
+            <button class="clear-history" id="clearHistory" type="button">清空</button>
+          </div>
+          <ol class="history-list" id="historyList"></ol>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-note">签文为原创占签文案，仅供静心参考。</footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
