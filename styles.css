@@ -27,7 +27,7 @@ body {
   background:
     linear-gradient(90deg, rgba(11, 14, 12, 0.36), rgba(11, 14, 12, 0.9) 58%, rgba(11, 14, 12, 0.72)),
     linear-gradient(0deg, rgba(11, 14, 12, 0.82), rgba(11, 14, 12, 0.1) 42%, rgba(11, 14, 12, 0.74)),
-    url("./assets/taishang-altar.png") center / cover fixed;
+    url("./assets/taishang-altar.jpg") center / cover fixed;
   overflow-x: hidden;
 }
 
