@@ -1,10 +1,11 @@
 # 太上老君灵签
-<img width="1200" height="675" alt="GHBanner" src="https://laojunlingqian.xiaoyangio.com/assets/taishang-altar.png" />
+<img width="1200" height="675" alt="老君灵签" src="https://laojunlingqian.xiaoyangio.com/assets/taishang-altar.jpg" />
 
 一个静态的太上老君灵签抽签网站，包含签筒抽签动画、36 支原创签文、分主题解签、最近签文记录和复制签文功能。
-自用为主，如果你觉得喜欢也欢迎免费使用。
-github IO发布
+自用为主，如果你觉得喜欢也欢迎免费使用。<br>
+github IO发布<br>
 https://wuming2.github.io/taishang-laojun-lingqian/
+<br>
 
 ## 预览
 
