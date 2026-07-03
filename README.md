@@ -17,6 +17,7 @@ https://wuming2.github.io/taishang-laojun-lingqian/
 - 抽签动画与结果签纸
 - 最近签文本地记录
 - 一键复制签文
+- 《太上老君说常清静经》全文阅读页面
 - 桌面与手机自适应布局
 
 ## 说明
